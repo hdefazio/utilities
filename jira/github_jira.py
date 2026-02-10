@@ -85,7 +85,6 @@ for bug in to_create:
         label = 'kubernetes'
         component = ctn_native_comp
 #    if bug.label = 'CI' or 'ci':
-    
     issue_template = {
         'project': 'ACA',
         'summary': '[{0}/{1}] {2}'.format(bug.repository.name, bug.number, bug.title),
